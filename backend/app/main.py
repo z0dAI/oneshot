@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings
 from app.routes.me import router as me_router
+from app.routes.admin import router as admin_router
 
 app = FastAPI(title="Clay Talent Portal API")
 
@@ -16,3 +17,4 @@ app.add_middleware(
 )
 
 app.include_router(me_router)
+app.include_router(admin_router)
