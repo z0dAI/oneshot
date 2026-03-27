@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+
+# Node
+node_modules/
+.next/
+
+# Environment
+.env
+.env.local
+!.env.example
+!.env.local.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Superpowers
+.superpowers/
